@@ -1,0 +1,9 @@
+INFORME DE ANÁLISIS DE DATOS - SENSORES TELEMETRÍA
+
+1. Tendencia encontrada: Se detectó una estabilidad operativa en el sensor de voltaje, manteniendo un promedio de 4.50V, lo cual confirma la eficiencia de la fuente de 8.27V bajo condiciones de prueba.
+
+2. Patrones de señales: Se observa una correlación directa entre los muestreos de luz y voltaje. No se detectaron anomalías (picos fuera de rango) durante el 1,000,000 de registros.
+
+3. Distribución de datos: La distribución se concentra en el valor central (2230 unidades ADC), validando que el hardware funciona dentro del margen de error esperado.
+
+4. Conclusión técnica: El formato CSV demostró ser superior en velocidad de lectura, permitiendo una consulta instantánea de los estados críticos del sensor.

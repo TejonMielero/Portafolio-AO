@@ -1,0 +1,14 @@
+
+Datos/dataset_1M.csv
+Datos/dataset_1M.json
+Datos/dataset_10M.csv
+Datos/dataset_10M.json
+Datos/dataset_20M.csv
+Datos/dataset_20M.json
+
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+
+
+!Datos/reales.csv
