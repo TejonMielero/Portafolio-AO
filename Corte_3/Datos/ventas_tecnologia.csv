@@ -1,0 +1,13 @@
+ID,Fecha,Producto,Categoria,Ventas,Cantidad,Mes
+1,2026-01-15,Raspberry Pi Pico W,Microcontroladores,2500,50,Enero
+2,2026-01-20,ESP32-S3,Microcontroladores,1800,45,Enero
+3,2026-02-10,Sensor DHT22,Sensores,450,90,Febrero
+4,2026-02-15,Pantalla OLED I2C,Displays,600,30,Febrero
+5,2026-03-05,Modulo LoRa SX1276,Comunicacion,3200,40,Marzo
+6,2026-03-20,Raspberry Pi 5,SBC,12000,10,Marzo
+7,2026-04-12,Sensor Ultrasonico,Sensores,300,60,Abril
+8,2026-04-25,Kit Jumper Wires,Accesorios,150,100,Abril
+9,2026-05-08,ESP32-CAM,Microcontroladores,900,30,Mayo
+10,2026-05-22,Bateria LiPo 3.7V,Energia,1200,40,Mayo
+11,2026-06-10,Puente H L298N,Drivers,750,50,Junio
+12,2026-06-18,Modulo GPS Neo-6M,Comunicacion,2800,20,Junio
