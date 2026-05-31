@@ -14,14 +14,16 @@
 
 ---
 
-## Índice de Proyectos
+---
+
+## 📋 Índice de Proyectos
 Esta tabla resume la evolución del sistema a lo largo del semestre:
 
 | Proyecto | Tecnologías | Formatos de Archivo | Enlace Directo |
 | :--- | :--- | :--- | :--- |
-| **1. Sistema Smart Greenhouse** | PHP, Python, HTML/CSS | `.txt` | [Ver Proyecto](Proyecto-1-Smart-Greenhouse/) |
-| **2. Control Térmico IoT** | MicroPython, PHP, Chart.js | `.json`, `.txt` | [Ver Proyecto](Proyecto-2-Control-Termico/) |
-| **3. Análisis IoT Hub** | Python, Pandas, Matplotlib | `.csv` | [Ver Proyecto](Proyecto-3-Analisis-Datos/) |
-| **4. Análisis de Eficiencia IoT** | Python, ESP32, Fourier | `.csv`, `.json` | [Ver Proyecto](Proyecto-4-Eficiencia-Datos/) |
+| **1. Sistema Smart Greenhouse** | PHP, Python, HTML/CSS | `.txt` | [Ver Proyecto](Corte_1/) |
+| **2. Control Térmico IoT** | MicroPython, PHP, Chart.js | `.json`, `.txt` | [Ver Proyecto](Corte_2/) |
+| **3. Analisis IoT Hub** | Python, Pandas, Matplotlib | `.csv` | [Ver Proyecto](Corte_3/) |
+| **4. Analisis de Eficiencia IoT** | Python, ESP32, Fourier | `.csv`, `.json` | [Ver Proyecto](Corte_4/) |
 
 ---
