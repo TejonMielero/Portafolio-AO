@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# --- PARTE I: LECTURA Y PROCESAMIENTO ---
+# --- PARTE 1: LECTURA Y PROCESAMIENTO ---
 def ejecutar_analisis():
     
     try:
@@ -19,7 +19,7 @@ def ejecutar_analisis():
     ventas_mes = df.groupby('Mes')['Ventas'].sum().reindex(orden_meses)
     print(ventas_mes)
 
-    # --- PARTE II: VISUALIZACIONES (Matplotlib) ---
+    # --- PARTE 2: VISUALIZACIONES (Matplotlib) ---
     
     plt.figure(figsize=(12, 7))
     ventas_producto.plot(kind='bar', color='skyblue')
@@ -53,7 +53,7 @@ def ejecutar_analisis():
     plt.tight_layout()
     plt.show()
 
-    # --- PARTE III: JERARQUÍA E IMPORTANCIA ---
+    # --- PARTE 3: JERARQUÍA E IMPORTANCIA ---
     top_ingreso = ventas_producto.idxmax()
     peor_vendido = ventas_producto.idxmin()
     mes_rentable = ventas_mes.idxmax()
