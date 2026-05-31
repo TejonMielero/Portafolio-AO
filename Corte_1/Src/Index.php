@@ -9,13 +9,13 @@
         body {
             margin: 0;
             font-family: 'Segoe UI', sans-serif;
-            /* Asegúrate de tener una imagen llamada fondo_plantas.jpg en tu carpeta */
+           
             background: #e8f5e9 url("fondo_plantas.jpg") no-repeat center center fixed;
             background-size: cover;
         }
 
         .overlay {
-            background: rgba(0, 0, 0, 0.3); /* Un poco más oscuro para que resalte la tarjeta */
+            background: rgba(0, 0, 0, 0.3); 
             backdrop-filter: blur(8px);
             height: 100vh;
             display: flex;

@@ -35,27 +35,26 @@
 
         <?php
         $contador = 0;
-        // El criterio viene de procesar.php
+        
         $busqueda = isset($_GET['busqueda']) ? trim($_GET['busqueda']) : '';
         
-        // Según la rúbrica, leemos el resultado del filtrado
+        
         $nombre_archivo = "filtrado.txt"; 
 
         if(file_exists($nombre_archivo)){
             $lineas = file($nombre_archivo);
             
-            // Invertimos para ver lo más nuevo arriba
+          
             foreach(array_reverse($lineas) as $linea){
                 $linea = trim($linea);
                 if(empty($linea)) continue;
 
-                // lógica de filtrado por texto
+            
                 if(empty($busqueda) || stripos($linea, $busqueda) !== false){
                     
                     $datos = explode(",", $linea);
                     
-                    // Lógica de ESTADO para tus clases de diseño
-                    // Buscamos si la línea dice "ON" para ponerla verde o "0%" para roja
+                
                     $linea_min = strtolower($linea);
                     $clase = "inactivo";
                     
@@ -63,10 +62,10 @@
                     elseif(strpos($linea_min, "0%") !== false) $clase = "alerta";
 
                     echo "<tr class='$clase'>";
-                    echo "<td>" . ($datos[1] ?? '-') . "</td>"; // Temperatura XX
-                    echo "<td>" . ($datos[2] ?? '-') . "</td>"; // Humedad XX
-                    echo "<td>" . ($datos[3] ?? '-') . "</td>"; // Nivel de Agua XX
-                    echo "<td>" . ($datos[4] ?? '-') . "</td>"; // Bomba: XX
+                    echo "<td>" . ($datos[1] ?? '-') . "</td>"; // Temperatura
+                    echo "<td>" . ($datos[2] ?? '-') . "</td>"; // Humedad
+                    echo "<td>" . ($datos[3] ?? '-') . "</td>"; // Nivel de Agua
+                    echo "<td>" . ($datos[4] ?? '-') . "</td>"; // Bomba:
                     echo "</tr>";
                     
                     $contador++;

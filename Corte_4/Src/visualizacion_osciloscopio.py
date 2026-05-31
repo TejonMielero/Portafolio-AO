@@ -18,7 +18,7 @@ def generar_graficas(ruta_csv):
     plt.savefig("Graficas/lineas_osciloscopio.png", dpi=300)
     plt.close()
     
-    # 2. HISTOGRAMA (Voltaje)
+    
     plt.figure(figsize=(8, 5))
     plt.hist(df["voltaje"], bins=40, color='#6200EA', edgecolor='white', linewidth=0.5, alpha=0.7)
     plt.title("Distribución de Voltaje", fontsize=14)
