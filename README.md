@@ -8,7 +8,7 @@
 
 * **Nombre:** Héctor Iván Villegas Rodarte
 * **Matrícula:** C22231096
-* **Carrera:** Ingeniería Informática
+* **Carrera:** Ingeniería Informática-Electrónica
 * **Materia:** Administración y Organización de Datos
 * **Institución:** Instituto Tecnológico Superior de Lerdo
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📋 Índice de Proyectos
+## Índice de Proyectos
 Esta tabla resume la evolución del sistema a lo largo del semestre:
 
 | Proyecto | Tecnologías | Formatos de Archivo | Enlace Directo |
